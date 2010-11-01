@@ -1,0 +1,36 @@
+body {
+  background-color: #444;
+}
+#coverflow-wrapper {
+  position: relative;
+  width: 1000px;
+}
+#prev {
+  float: left;
+  padding: 5px;
+  background-color: green;
+}
+#next {
+  float: right;
+  padding: 5px;
+  background-color: green;  
+}
+#coverflow {
+  float: left;
+  width: 700px;
+  list-style: none;
+}
+#coverflow li {
+  position: absolute;
+  z-index: 100;
+}
+#coverflow img {
+  width: 200px;
+  border: 8px solid #fff;
+  
+  -moz-border-radius: 6px; /* FF1+ */
+
+     -moz-box-shadow: 0px 3px 6px rgba(0,0,0,0.5); 
+  -webkit-box-shadow: 0px 3px 6px rgba(0,0,0,0.5); 
+          box-shadow: 0px 3px 6px rgba(0,0,0,0.5);
+}
